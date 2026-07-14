@@ -11,6 +11,7 @@ const navLinks = [
   { label: 'About', href: '#about' },
   { label: 'Projects', href: '#projects' },
   { label: 'Skills', href: '#skills' },
+  { label: 'Achievements', href: '#achievements' },
   { label: 'Experience', href: '#experience' },
   { label: 'Contact', href: '#contact' },
 ]
@@ -50,7 +51,7 @@ export default function Navbar({ isDark, onToggleTheme }: NavbarProps) {
             className="font-serif font-bold text-xl text-[var(--fg)] hover:text-[var(--node)] transition-colors"
             aria-label="Home"
           >
-            <span className="gradient-text">SK</span>
+            <span className="gradient-text">AJ</span>
           </a>
 
           {/* Desktop nav */}

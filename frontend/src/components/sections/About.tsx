@@ -7,18 +7,18 @@ import { Brain, Code2, Users } from 'lucide-react'
 const HIGHLIGHTS = [
   {
     icon: <Brain size={22} />,
-    title: 'AI / ML',
-    desc: 'Building intelligent systems — from fine-tuning transformers to deploying models on the edge.',
+    title: 'Python & AI/ML',
+    desc: 'Building intelligent applications with Python — from data analysis and machine learning models to deploying interactive Streamlit dashboards.',
   },
   {
     icon: <Code2 size={22} />,
-    title: 'Full-Stack Dev',
-    desc: 'End-to-end engineering: FastAPI backends, React frontends, and everything in between.',
+    title: 'Java & C Programming',
+    desc: 'Strong foundation in object-oriented programming with Java and systems-level programming with C — ready for core software engineering roles.',
   },
   {
     icon: <Users size={22} />,
-    title: 'Workshop Facilitator',
-    desc: 'Designed and led 10+ technical workshops for 50–120 students each, on ML and software engineering.',
+    title: 'Placement Ready',
+    desc: 'Actively preparing for campus placements with solid DSA skills, project experience, and hands-on exposure to industry-relevant technologies.',
   },
 ]
 
@@ -39,23 +39,26 @@ export default function About() {
           >
             <p className="section-label">About Me</p>
             <h2 className="section-heading mb-6">
-              Building at the intersection of{' '}
-              <span className="gradient-text italic">intelligence</span> and craft.
+              Code. Build. Ship.{' '}
+              <span className="gradient-text italic">Repeat.</span>
             </h2>
             <div className="space-y-4 text-[var(--fg-muted)] leading-relaxed text-lg">
               <p>
-                I'm a Computer Engineering student passionate about making machines smarter and
-                software more human. My work spans research-level ML (transformer fine-tuning, vector
-                search, on-device inference) and production full-stack systems.
+                I'm Aaron Jacob, a Computer Engineering student with a passion for writing clean,
+                efficient code across Python, Java, and C. I love turning complex problems into
+                elegant solutions — whether that's a data pipeline, a Streamlit app, or a
+                systems-level program.
               </p>
               <p>
-                Beyond building, I teach — I've designed curriculum and facilitated workshops that
-                have introduced hundreds of students to PyTorch, LLMs, and modern web development.
-                Teaching sharpens my own understanding as much as it helps others.
+                My Python journey has taken me into data science and AI/ML — building interactive
+                dashboards with Streamlit, training models, and automating workflows. I pair this
+                with strong fundamentals in Java (OOP, Spring basics) and C (pointers, memory
+                management, algorithms).
               </p>
               <p>
-                I'm looking for opportunities where I can contribute meaningfully to AI/ML products,
-                ship reliable software, and keep learning from great engineers.
+                I'm placement-focused and actively honing my DSA skills, building real projects,
+                and looking for opportunities where I can contribute, grow, and make an impact from
+                day one.
               </p>
             </div>
           </motion.div>

@@ -1,9 +1,9 @@
 import { motion } from 'framer-motion'
 import { letterVariant, staggerFast, fadeSlideUp } from '@/lib/motion'
-import { ArrowDown } from 'lucide-react'
+import { ArrowDown, Linkedin } from 'lucide-react'
 
-const NAME = 'Samarth Kale'
-const TAGLINE = 'Computer Engineer · AI/ML · Full-Stack · Workshop Facilitator'
+const NAME = 'Aaron Jacob'
+const TAGLINE = 'Computer Engineer · Python · Java · C · Streamlit · Placement Ready'
 
 export default function Hero() {
   return (
@@ -85,6 +85,15 @@ export default function Hero() {
             className="btn-primary"
           >
             View Projects
+          </a>
+          <a
+            href="https://www.linkedin.com/in/aaron-j-jacob-444ba6417"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-ghost flex items-center gap-2"
+            aria-label="LinkedIn profile"
+          >
+            <Linkedin size={16} /> LinkedIn
           </a>
           <a
             href="#contact"

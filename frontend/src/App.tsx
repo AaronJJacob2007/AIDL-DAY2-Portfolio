@@ -9,6 +9,7 @@ import { useTheme } from '@/hooks/useTheme'
 const About = lazy(() => import('@/components/sections/About'))
 const Projects = lazy(() => import('@/components/sections/Projects'))
 const Skills = lazy(() => import('@/components/sections/Skills'))
+const Achievements = lazy(() => import('@/components/sections/Achievements'))
 const Experience = lazy(() => import('@/components/sections/Experience'))
 const Contact = lazy(() => import('@/components/sections/Contact'))
 
@@ -44,6 +45,10 @@ export default function App() {
 
         <Suspense fallback={<SectionLoader />}>
           <Skills />
+        </Suspense>
+
+        <Suspense fallback={<SectionLoader />}>
+          <Achievements />
         </Suspense>
 
         <Suspense fallback={<SectionLoader />}>
