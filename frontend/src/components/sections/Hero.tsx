@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { letterVariant, staggerFast, fadeSlideUp } from '@/lib/motion'
-import { ArrowDown, Linkedin } from 'lucide-react'
+import { ArrowDown, Github, Linkedin } from "lucide-react";
 
 const NAME = 'Aaron Jacob'
 const TAGLINE = 'Computer Engineer · Python · Java · C · Streamlit · Placement Ready'
